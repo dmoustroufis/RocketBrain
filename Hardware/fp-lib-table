@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name RocketBrain)(type KiCad)(uri ${KIPRJMOD}/RocketBrain.pretty)(options "")(descr ""))
+)
