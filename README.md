@@ -1,7 +1,7 @@
 # RocketBrain
 A flight computer for model rockets in a HAT format for the Raspberry Pi Pico
 
-Hardware capabilities : 
+Hardware characteristics  : 
 * Primary 9 axis IMU 
 * Secondary 6 AXIS IMU 
 * Barometer 
