@@ -19,7 +19,7 @@ U 1 1 6105A6EF
 P 5650 3725
 F 0 "U1" H 5650 4940 50  0000 C CNN
 F 1 "Pico" H 5650 4849 50  0000 C CNN
-F 2 "RocketBrain:RPi_Pico_HAT" V 7425 5400 50  0001 C CNN
+F 2 "RocketBrain:RPi_Pico_HAT_smd" V 7425 5400 50  0001 C CNN
 F 3 "" H 7425 5400 50  0001 C CNN
 	1    5650 3725
 	1    0    0    -1  
@@ -202,7 +202,7 @@ Text Label 4650 5700 2    50   ~ 0
 buzz
 Wire Wire Line
 	4650 5700 4925 5700
-Text Label 4775 3575 2    50   ~ 0
+Text Label 6575 3875 0    50   ~ 0
 buzz
 Wire Wire Line
 	4775 3575 4950 3575
@@ -323,7 +323,6 @@ Connection ~ 4400 4475
 Wire Wire Line
 	4400 4475 4400 3975
 NoConn ~ 4950 4675
-NoConn ~ 4950 3675
 NoConn ~ 4950 2875
 NoConn ~ 4950 2775
 NoConn ~ 6350 2775
@@ -379,5 +378,90 @@ Wire Notes Line
 	6900 600  5275 600 
 Wire Wire Line
 	6350 3175 7025 3175
-NoConn ~ 6350 3875
+$Comp
+L Device:LED D4
+U 1 1 6115C3C5
+P 3350 4500
+F 0 "D4" V 3297 4580 50  0000 L CNN
+F 1 "LED " V 3388 4580 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3350 4500 50  0001 C CNN
+F 3 "~" H 3350 4500 50  0001 C CNN
+	1    3350 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 6115C9D0
+P 2950 4500
+F 0 "D2" V 2897 4580 50  0000 L CNN
+F 1 "LED red " V 3050 4500 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 2950 4500 50  0001 C CNN
+F 3 "~" H 2950 4500 50  0001 C CNN
+	1    2950 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 6115DA62
+P 2950 4875
+F 0 "R14" H 3020 4921 50  0000 L CNN
+F 1 "220" H 3020 4830 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2880 4875 50  0001 C CNN
+F 3 "~" H 2950 4875 50  0001 C CNN
+	1    2950 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 6115E36E
+P 3350 4875
+F 0 "R15" H 3420 4921 50  0000 L CNN
+F 1 "220" H 3420 4830 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 4875 50  0001 C CNN
+F 3 "~" H 3350 4875 50  0001 C CNN
+	1    3350 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4725 2950 4650
+Wire Wire Line
+	3350 4725 3350 4650
+$Comp
+L power:GND #PWR0119
+U 1 1 6116046B
+P 3150 5125
+F 0 "#PWR0119" H 3150 4875 50  0001 C CNN
+F 1 "GND" H 3155 4952 50  0000 C CNN
+F 2 "" H 3150 5125 50  0001 C CNN
+F 3 "" H 3150 5125 50  0001 C CNN
+	1    3150 5125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5025 2950 5075
+Wire Wire Line
+	2950 5075 3150 5075
+Wire Wire Line
+	3350 5075 3350 5025
+Wire Wire Line
+	3150 5075 3150 5125
+Connection ~ 3150 5075
+Wire Wire Line
+	3150 5075 3350 5075
+Text Label 2950 4225 1    50   ~ 0
+boot
+Wire Wire Line
+	2950 4225 2950 4350
+Text Label 3350 4225 1    50   ~ 0
+ready
+Wire Wire Line
+	3350 4225 3350 4350
+Text Label 4775 3675 2    50   ~ 0
+boot
+Wire Wire Line
+	4775 3675 4950 3675
+Text Label 4775 3575 2    50   ~ 0
+ready
+Wire Wire Line
+	6575 3875 6350 3875
 $EndSCHEMATC

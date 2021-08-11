@@ -74,7 +74,7 @@ Wire Wire Line
 	6275 3625 6475 3625
 Connection ~ 6475 3625
 Text HLabel 6275 3625 0    50   Input ~ 0
-pyro
+pyro1
 $Comp
 L Connector:Screw_Terminal_01x02 J6
 U 1 1 61117DA7
@@ -105,4 +105,96 @@ Wire Wire Line
 	6350 3250 6225 3250
 Wire Wire Line
 	6950 3350 6950 3425
+$Comp
+L Device:R R17
+U 1 1 6116D5D1
+P 8425 3325
+F 0 "R17" V 8350 3325 50  0000 C CNN
+F 1 "10" V 8425 3325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8355 3325 50  0001 C CNN
+F 3 "~" H 8425 3325 50  0001 C CNN
+	1    8425 3325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 6116D5D7
+P 8375 3825
+F 0 "R16" V 8450 3825 50  0000 C CNN
+F 1 "1k" V 8375 3825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8305 3825 50  0001 C CNN
+F 3 "~" H 8375 3825 50  0001 C CNN
+	1    8375 3825
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q2
+U 1 1 6116D5DD
+P 8750 3600
+F 0 "Q2" H 8955 3646 50  0000 L CNN
+F 1 "G1003A" H 8955 3555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8950 3700 50  0001 C CNN
+F 3 "~" H 8750 3600 50  0001 C CNN
+	1    8750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3325 8575 3325
+$Comp
+L power:GND #PWR031
+U 1 1 6116D5E4
+P 8850 4050
+F 0 "#PWR031" H 8850 3800 50  0001 C CNN
+F 1 "GND" H 8855 3877 50  0000 C CNN
+F 2 "" H 8850 4050 50  0001 C CNN
+F 3 "" H 8850 4050 50  0001 C CNN
+	1    8850 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8375 3675 8375 3600
+Wire Wire Line
+	8375 3600 8550 3600
+Wire Wire Line
+	8375 3975 8850 3975
+Wire Wire Line
+	8850 3800 8850 3975
+Wire Wire Line
+	8850 3975 8850 4050
+Connection ~ 8850 3975
+Wire Wire Line
+	8175 3600 8375 3600
+Connection ~ 8375 3600
+Text HLabel 8175 3600 0    50   Input ~ 0
+pyro2
+$Comp
+L Connector:Screw_Terminal_01x02 J7
+U 1 1 6116D5F3
+P 7925 3325
+F 0 "J7" H 8125 3325 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 8400 3200 50  0000 C CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 7925 3325 50  0001 C CNN
+F 3 "~" H 7925 3325 50  0001 C CNN
+	1    7925 3325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8275 3325 8125 3325
+$Comp
+L power:+BATT #PWR030
+U 1 1 6116D5FA
+P 8250 3175
+F 0 "#PWR030" H 8250 3025 50  0001 C CNN
+F 1 "+BATT" H 8265 3348 50  0000 C CNN
+F 2 "" H 8250 3175 50  0001 C CNN
+F 3 "" H 8250 3175 50  0001 C CNN
+	1    8250 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3175 8250 3225
+Wire Wire Line
+	8250 3225 8125 3225
+Wire Wire Line
+	8850 3325 8850 3400
 $EndSCHEMATC
