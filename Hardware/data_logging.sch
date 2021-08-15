@@ -106,7 +106,6 @@ F 3 "~" H 2550 4100 50  0001 C CNN
 	1    2550 4100
 	1    0    0    -1  
 $EndComp
-Connection ~ 2825 3850
 Wire Wire Line
 	2550 3950 2550 3900
 Wire Wire Line
@@ -214,8 +213,6 @@ Text HLabel 3250 3650 0    50   Input ~ 0
 ~CS_SD
 NoConn ~ 6050 3550
 NoConn ~ 4750 3550
-Wire Wire Line
-	2825 3425 2825 3850
 Text HLabel 7375 3725 0    50   Input ~ 0
 ~CS_flash
 Wire Wire Line
@@ -297,4 +294,40 @@ Text GLabel 9050 3625 2    50   Input ~ 0
 MOSI
 Text GLabel 9075 3725 2    50   Output ~ 0
 MISO
+$Comp
+L Device:L L1
+U 1 1 61194198
+P 2825 3650
+F 0 "L1" H 2725 3700 50  0000 L CNN
+F 1 "470n " H 2625 3600 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 2825 3650 50  0001 C CNN
+F 3 "~" H 2825 3650 50  0001 C CNN
+	1    2825 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 3800 2825 3850
+Connection ~ 2825 3850
+Wire Wire Line
+	2825 3425 2825 3500
+Text Notes 8625 4325 0    50   ~ 0
+flash chip
+Text Notes 5975 4425 0    50   ~ 0
+micro SD \ncard 
+Wire Notes Line
+	5950 4450 6350 4450
+Wire Notes Line
+	6350 4450 6350 4250
+Wire Notes Line
+	6350 4250 5950 4250
+Wire Notes Line
+	5950 4250 5950 4450
+Wire Notes Line
+	8600 4225 8600 4350
+Wire Notes Line
+	8600 4350 9050 4350
+Wire Notes Line
+	9050 4350 9050 4225
+Wire Notes Line
+	9050 4225 8600 4225
 $EndSCHEMATC
