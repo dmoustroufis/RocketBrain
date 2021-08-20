@@ -1,4 +1,4 @@
-update=15-Aug-21 7:42:47 PM
+update=20-Aug-21 3:35:44 PM
 version=1
 last_client=kicad
 [general]
@@ -25,8 +25,8 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
-CopperLayerCount=2
+LastNetListRead=RocketBrain.net
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -77,11 +77,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -262,7 +262,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=power
 Clearance=0.2
-TrackWidth=0.5
+TrackWidth=0.4
 ViaDiameter=0.6
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -273,7 +273,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=pyro
 Clearance=0.2
-TrackWidth=0.8
+TrackWidth=0.6
 ViaDiameter=0.6
 ViaDrill=0.4
 uViaDiameter=0.3

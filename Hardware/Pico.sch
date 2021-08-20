@@ -205,7 +205,7 @@ Wire Wire Line
 Text Label 6650 4225 0    50   ~ 0
 buzz
 Wire Wire Line
-	4850 3925 5025 3925
+	4850 3125 5025 3125
 Wire Wire Line
 	4850 4525 5025 4525
 Wire Wire Line
@@ -289,11 +289,9 @@ F 3 "~" H 5100 1775 50  0001 C CNN
 	1    5100 1775
 	-1   0    0    1   
 $EndComp
-Text HLabel 4850 4925 0    50   Output ~ 0
-pyro
-Wire Wire Line
-	4850 4925 5025 4925
-Text HLabel 5025 3425 0    50   Output ~ 0
+Text HLabel 6550 3725 2    50   Output ~ 0
+pyro1
+Text HLabel 4875 5025 0    50   Output ~ 0
 ~CS_LoRa
 Text HLabel 5025 3525 0    50   Output ~ 0
 ~RESET_LoRa
@@ -322,19 +320,14 @@ Wire Wire Line
 Connection ~ 4475 4825
 Wire Wire Line
 	4475 4825 4475 4325
-NoConn ~ 5025 5025
-NoConn ~ 5025 3225
-NoConn ~ 5025 3125
 NoConn ~ 6425 3125
 NoConn ~ 6425 3425
 NoConn ~ 6425 3625
-NoConn ~ 6425 3725
-NoConn ~ 6425 3925
 NoConn ~ 6425 4025
 NoConn ~ 6425 4125
 NoConn ~ 6425 4925
 NoConn ~ 6425 5025
-Text HLabel 4900 4125 0    50   Output ~ 0
+Text HLabel 4925 3225 0    50   Output ~ 0
 INT_6050
 Wire Wire Line
 	4900 4125 5025 4125
@@ -460,8 +453,21 @@ Text Label 4850 4025 2    50   ~ 0
 boot
 Wire Wire Line
 	4850 4025 5025 4025
-Text Label 4850 3925 2    50   ~ 0
+Text Label 4850 3125 2    50   ~ 0
 ready
 Wire Wire Line
 	6650 4225 6425 4225
+Wire Wire Line
+	4875 5025 5025 5025
+NoConn ~ 5025 3425
+Wire Wire Line
+	6425 3725 6550 3725
+Text HLabel 6550 3925 2    50   Output ~ 0
+pyro2
+Wire Wire Line
+	6550 3925 6425 3925
+NoConn ~ 5025 4925
+Wire Wire Line
+	4925 3225 5025 3225
+NoConn ~ 4900 4125
 $EndSCHEMATC
