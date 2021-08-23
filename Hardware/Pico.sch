@@ -289,7 +289,7 @@ F 3 "~" H 5100 1775 50  0001 C CNN
 	1    5100 1775
 	-1   0    0    1   
 $EndComp
-Text HLabel 6550 3725 2    50   Output ~ 0
+Text HLabel 6550 4025 2    50   Output ~ 0
 pyro1
 Text HLabel 4875 5025 0    50   Output ~ 0
 ~CS_LoRa
@@ -323,7 +323,6 @@ Wire Wire Line
 NoConn ~ 6425 3125
 NoConn ~ 6425 3425
 NoConn ~ 6425 3625
-NoConn ~ 6425 4025
 NoConn ~ 6425 4125
 NoConn ~ 6425 4925
 NoConn ~ 6425 5025
@@ -460,8 +459,6 @@ Wire Wire Line
 Wire Wire Line
 	4875 5025 5025 5025
 NoConn ~ 5025 3425
-Wire Wire Line
-	6425 3725 6550 3725
 Text HLabel 6550 3925 2    50   Output ~ 0
 pyro2
 Wire Wire Line
@@ -471,4 +468,7 @@ Wire Wire Line
 	4925 3225 5025 3225
 NoConn ~ 4900 4125
 NoConn ~ 5025 3925
+Wire Wire Line
+	6550 4025 6425 4025
+NoConn ~ 6425 3725
 $EndSCHEMATC
