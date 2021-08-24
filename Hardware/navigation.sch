@@ -23,6 +23,8 @@ F 0 "U3" H 3975 1825 50  0000 C CNN
 F 1 "MPU-6050" H 3425 1825 50  0000 C CNN
 F 2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm" H 3750 1600 50  0001 C CNN
 F 3 "https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf" H 3750 2250 50  0001 C CNN
+F 4 "TDK InvenSense" H 3750 2400 50  0001 C CNN "MANUFACTURER"
+F 5 "MPU-6050" H 3750 2400 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3750 2400
 	1    0    0    -1  
 $EndComp
@@ -36,6 +38,8 @@ F 0 "U2" H 3400 6100 50  0000 C CNN
 F 1 "LSM9DS1" H 3350 4600 50  0000 C CNN
 F 2 "Package_LGA:LGA-24L_3x3.5mm_P0.43mm" H 5225 6100 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf" H 3725 5450 50  0001 C CNN
+F 4 "STMicroelectronics" H 3725 5350 50  0001 C CNN "MANUFACTURER"
+F 5 "LSM9DS1" H 3725 5350 50  0001 C CNN "Manufacturer_Part_Number"
 	1    3725 5350
 	1    0    0    -1  
 $EndComp
@@ -570,6 +574,8 @@ F 0 "U6" H 7780 4371 50  0000 L CNN
 F 1 "BMP280" H 7780 4280 50  0000 L CNN
 F 2 "Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering" H 7550 3575 50  0001 C CNN
 F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf" H 7550 4275 50  0001 C CNN
+F 4 "Bosch Sensortec" H 7550 4275 50  0001 C CNN "MANUFACTURER"
+F 5 "BMP280" H 7550 4275 50  0001 C CNN "Manufacturer_Part_Number"
 	1    7550 4275
 	1    0    0    -1  
 $EndComp

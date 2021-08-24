@@ -168,6 +168,7 @@ F 4 "Electro-Magnetic Buzzer (SMD Type)" H 6350 5950 50  0001 L CNN "Description
 F 5 "3" H 6350 5850 50  0001 L CNN "Height"
 F 6 "Jiangsu Huaneng Elec" H 6350 5750 50  0001 L CNN "Manufacturer_Name"
 F 7 "MLT-8530" H 6350 5650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "Jiangsu Huaneng Elec" H 5000 6050 50  0001 C CNN "MANUFACTURER"
 	1    5000 6050
 	1    0    0    -1  
 $EndComp

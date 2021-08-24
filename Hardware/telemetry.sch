@@ -25,6 +25,7 @@ F 4 "Manufacturer Recommendations" H 5750 4350 50  0001 L BNN "STANDARD"
 F 5 "2018/03/02" H 5750 4350 50  0001 L BNN "PARTREV"
 F 6 "Ai-Thinker" H 5750 4350 50  0001 L BNN "MANUFACTURER"
 F 7 "3.3mm" H 5750 4350 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 8 "Ra-02" H 5750 4350 50  0001 C CNN "Manufacturer_Part_Number"
 	1    5750 4350
 	1    0    0    -1  
 $EndComp

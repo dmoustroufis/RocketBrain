@@ -21,6 +21,8 @@ F 0 "U7" H 7825 4300 50  0000 C CNN
 F 1 "W25Q128JVS" H 7825 4200 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 8225 3825 50  0001 C CNN
 F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 8225 3825 50  0001 C CNN
+F 4 "	Winbond" H 8225 3825 50  0001 C CNN "MANUFACTURER"
+F 5 "W25Q128JVSIQ" H 8225 3825 50  0001 C CNN "Manufacturer_Part_Number"
 	1    8225 3825
 	1    0    0    -1  
 $EndComp
@@ -40,6 +42,7 @@ F 8 "798-DM3CSSF" H 5900 3050 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DM3CS-SF?qs=tTj%252BmQ3KZwbB9K5zh89Rcw%3D%3D" H 5900 2950 50  0001 L CNN "Mouser Price/Stock"
 F 10 "" H 5900 2850 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 5900 2750 50  0001 L CNN "Arrow Price/Stock"
+F 12 "HRS(Hirose)" H 4750 3550 50  0001 C CNN "MANUFACTURER"
 	1    4750 3550
 	1    0    0    -1  
 $EndComp
